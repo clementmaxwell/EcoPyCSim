@@ -39,5 +39,18 @@ Once the setup is complete, you can begin running simulations within the EcoPyCS
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request to submit your changes.
 
+## Citation
+If you use EcoPyCSim or refer to our work in your research, please cite the following paper:
+(Paper is in pending submission)
+
 ## License
 This project is licensed under the MIT License.
+
+### BibTeX
+```bibtex
+@misc{hou2024multiagent,
+   title={A Multi-Agent Reinforcement Learning-based Cloud Scheduling Simulator for Energy-Aware Job Scheduling and Resource Allocation},
+   author={Huanhuan Hou and Clement Maxwell and Azlan Ismail},
+   year={2024},
+   note={Preprint available at: \url{https://github.com/clementmaxwell/EcoPyCSim}},
+}
