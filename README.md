@@ -15,6 +15,7 @@ Key features include:
 
 ### Prerequisites
 Ensure that you have Python 3.8+ installed. It's recommended to run this project in a virtual environment to avoid conflicts with other packages.
+Note: Avoid using Python 3.12.0 or newer, as there is a known bug in the dependencies with this project.
 
 ### Setup Instructions
 
