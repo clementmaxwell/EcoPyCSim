@@ -52,5 +52,5 @@ If you use EcoPyCSim or refer to our work in your research, please cite the foll
    title={A Multi-Agent Reinforcement Learning-based Cloud Scheduling Simulator for Energy-Aware Job Scheduling and Resource Allocation},
    author={Huanhuan Hou and Clement Maxwell and Azlan Ismail},
    year={2024},
-   note={Preprint available at: \url{https://github.com/clementmaxwell/EcoPyCSim}},
+   note={Preprint available at: \url{}},
 }
