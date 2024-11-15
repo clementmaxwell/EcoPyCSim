@@ -43,7 +43,35 @@ Note: Avoid using Python 3.12.0 or newer, as there is a known bug in the depende
 
 ## Usage
 
-Once the setup is complete, you can begin running simulations within the EcoPyCSim environment.
+Once the setup is complete, you can begin running simulations within the EcoPyCSim environment. 
+Simply execute the script with this command:
+```bash
+python run_env.py
+```
+
+To train the maddpg agent within the environment, run:
+```bash
+python run_env_train_maddpg.py
+```
+
+To evaluate the performance of the trained model, run:
+```bash
+python run_env_trained_maddpg.py
+```
+
+### Adjustable Parameters
+The following parameters can be adjusted for each script:
+- num_jobs: The number of jobs to simulate
+- num_server_farms: The number of server farms in the simulation
+- num_servers: The number of servers per server farm
+
+Additionally, you can adjust the episode length and the MADDPG-specific parameters for training and evaluation.
+
+### Job Arrival Rate Configuration
+To set the arrival rate of jobs, modify the following parameters in helper/create_jobs.py:
+- lambda_: The rate at which jobs arrive
+- mu: The rate at which jobs are processed
+- sigma: The rate variability in job processing time
 
 ## Contributing
 
