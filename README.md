@@ -29,7 +29,7 @@ Note: Avoid using Python 3.12.0 or newer, as there is a known bug in the depende
    python3 -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-4. **Install Dependencies**:
+3. **Install Dependencies**:
    ```bash
    After activating your virtual environment, install the required packages:
    pip install -r requirements.txt
