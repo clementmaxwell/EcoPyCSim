@@ -45,13 +45,14 @@ This project is licensed under the MIT License.
 
 ## Citation
 If you use EcoPyCSim or refer to our work in your research, please cite the following paper:
-(Paper is in pending submission)
 
 ### BibTeX
 ```bibtex
-@misc{hou2024multiagent,
+@article{hou2024multiagent,
    title={A Multi-Agent Reinforcement Learning-based Cloud Scheduling Simulator for Energy-Aware Job Scheduling and Resource Allocation},
    author={Huanhuan Hou and Clement Maxwell and Azlan Ismail},
    year={2024},
-   note={Preprint available at: \url{}},
+   journal={SSRN Electronic Journal},
+   note={Preprint},
+   url={http://ssrn.com/abstract=5020937}
 }
