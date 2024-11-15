@@ -29,7 +29,7 @@ num_jobs = 300
 num_server_farms = 30
 num_servers = 210
 
-episode_num = 1000
+episode_num = 10
 random_steps = num_jobs * 0.1
 learn_iterval = 5
 capacity = int(1e6)
@@ -39,19 +39,18 @@ critic_lr = 0.0005
 gamma = 0.9
 tau = 0.1
 
-env_dir = os.path.join('./results', 'cloud_scheduling')
+env_dir = os.path.join('./results', 'maddpg')
 if not os.path.exists(env_dir):
   os.makedirs(env_dir)
 
 reward_file_path = os.path.join(env_dir, 'reward.txt')
 env, dim_info = set_env(num_jobs=num_jobs, num_server_farms=num_server_farms, num_servers=num_servers)
 
+project_dir = os.path.dirname(os.path.abspath(__file__))
+save_folder = os.path.join(project_dir, "results")
+model_file_path = os.path.join(save_folder, "model.pt")
 
-model_file_path = "E:\\pythonProject\\multi-agent-reinforcement-learning-cloud-scheduli\\ma_cloud_scheduling_sim\\results\\cloud_scheduling\\model.pt"
-if os.path.exists(model_file_path):
-  maddpg = MADDPG.load(dim_info, model_file_path, capacity, batch_size, actor_lr, critic_lr)
-else:
-  maddpg = MADDPG(
+maddpg = MADDPG(
   dim_info,
   capacity=capacity,
   batch_size=batch_size,
@@ -108,8 +107,8 @@ for episode in range(episode_num):
   print(f"server farm reward: {reward['server_farm']}, server reward: {reward['server']}")
   print(message)
 
-  if (episode+1) % 50 == 0:
-    maddpg.save(episode_rewards)
+  #if (episode+1) % 50 == 0:
+  maddpg.save(episode_rewards)
 
 def get_running_reward(arr: np.ndarray, window=100):
   """calculate the running reward, i.e., average of last 'window' elements from rewards"""

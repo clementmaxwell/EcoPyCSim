@@ -23,14 +23,21 @@ def set_env(num_jobs, num_server_farms, num_servers):
     
     return env, _dim_info
 
+num_jobs = 300
+num_server_farms = 30
+num_servers = 210
+
 capacity = int(1e6)
 batch_size = 1024 #1024
 actor_lr = 0.0005
 critic_lr = 0.0005
 
-env, dim_info = set_env(num_jobs=500, num_server_farms=10, num_servers=100)
+env, dim_info = set_env(num_jobs=num_jobs, num_server_farms=num_server_farms, num_servers=210)
 
-model_file_path = "E:\\pythonProject\\multi-agent-reinforcement-learning-cloud-scheduli\\ma_cloud_scheduling_sim\\results\\cloud_scheduling\\model.pt"
+project_dir = os.path.dirname(os.path.abspath(__file__))
+save_folder = os.path.join(project_dir, "results")
+env_dir = os.path.join(save_folder, 'maddpg')
+model_file_path = os.path.join(env_dir, "model.pt")
 maddpg = MADDPG.load(dim_info, model_file_path, capacity, batch_size, actor_lr, critic_lr)
 
 # Testing MADDPG
