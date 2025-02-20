@@ -94,6 +94,10 @@ If you use EcoPyCSim or refer to our work in your research, please cite the foll
 }
 ```
 
+## :sparkles: Star History :sparkles:
+
+[![Star History Chart](https://api.star-history.com/svg?repos=clementmaxwell/EcoPyCSim&type=Date)](https://star-history.com/#clementmaxwell/EcoPyCSim&Date)
+
 ## License
 
 This project is licensed under the MIT License.
