@@ -96,7 +96,13 @@ If you use EcoPyCSim or refer to our work in your research, please cite the foll
 
 ## :sparkles: Star History :sparkles:
 
-[![Star History Chart](https://api.star-history.com/svg?repos=clementmaxwell/EcoPyCSim&type=Date)](https://star-history.com/#clementmaxwell/EcoPyCSim&Date)
+<a href="https://www.star-history.com/?type=date&repos=clementmaxwell%2FEcoPyCSim">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=clementmaxwell/EcoPyCSim&type=date&theme=dark&legend=top-left&sealed_token=FKTBqK4jIVrG8LDUCENfUQzam_v6vE8KRdIbL92FJyE89nfUFp85jZYFAZ_6i7wUASv9kydv9ocAPgpbfODXPOJS5IkoZTu8wDozvMRwbxaXksjxbRpKGyFS3cCSkE08aB1ZIkN-zUC0jkS4a_hM143JySSq21RtuBn3XBlGlEMiAA" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=clementmaxwell/EcoPyCSim&type=date&legend=top-left&sealed_token=FKTBqK4jIVrG8LDUCENfUQzam_v6vE8KRdIbL92FJyE89nfUFp85jZYFAZ_6i7wUASv9kydv9ocAPgpbfODXPOJS5IkoZTu8wDozvMRwbxaXksjxbRpKGyFS3cCSkE08aB1ZIkN-zUC0jkS4a_hM143JySSq21RtuBn3XBlGlEMiAA" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=clementmaxwell/EcoPyCSim&type=date&legend=top-left&sealed_token=FKTBqK4jIVrG8LDUCENfUQzam_v6vE8KRdIbL92FJyE89nfUFp85jZYFAZ_6i7wUASv9kydv9ocAPgpbfODXPOJS5IkoZTu8wDozvMRwbxaXksjxbRpKGyFS3cCSkE08aB1ZIkN-zUC0jkS4a_hM143JySSq21RtuBn3XBlGlEMiAA" />
+ </picture>
+</a>
 
 ## License
 
